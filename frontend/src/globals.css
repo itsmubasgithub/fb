@@ -1,0 +1,156 @@
+.height-100 {
+  height: 100vh !important;
+}
+
+.height-90 {
+  height: 90vh !important;
+}
+
+body {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.height-70 {
+  height: 70vh !important;
+}
+.height-80 {
+  height: 70vh !important;
+}
+
+.height-60 {
+  height: 60vh !important;
+}
+
+.bg-green {
+  background-color: chartreuse !important;
+}
+
+.text-sm {
+  font-size: 0.7rem !important;
+}
+
+.bg-sign {
+  background-color: #00a400 !important ;
+}
+
+.btn-ghaib {
+  background-color: red !important;
+}
+
+.card-otp {
+  border: 3px dotted black !important;
+}
+
+.outline-0 {
+  outline-width: 0 !important;
+}
+.rounded-full {
+  clip-path: circle() !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.box-shadow {
+  box-shadow: none !important ;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+.text-area {
+  font-size: 1.5rem !important;
+  resize: none !important;
+}
+.text-area::placeholder {
+  font-size: 1.5rem !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.bg-gray {
+  background: lightgray !important;
+}
+
+.sidebar-list:hover {
+  background-color: lightgrey !important;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.button-see {
+  margin-left: -6px !important;
+}
+
+.icon-see {
+  margin-left: -10px !important;
+}
+
+.text-sm-see {
+  font-size: 0.6rem !important;
+}
+
+.box-see {
+  margin-left: -15px !important;
+}
+
+.bg-light {
+  background-color: rgb(247, 243, 243) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.text-md {
+  font-size: 1rem !important;
+}
+
+.wm-content {
+  width: max-content !important;
+}
+
+.transition-sm {
+  transition: all 0.8s !important;
+}
+
+.transition-md {
+  transition: all 0.4s !important;
+}
+
+.transition-lg {
+  transition: all 0.3s !important;
+}
+
+.object-cover {
+  object-fit: contain !important;
+}
+
+.side-bar {
+  overflow: scroll !important;
+}
+
+.new-requests:hover {
+  background-color: #e6e8ea !important;
+}

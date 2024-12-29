@@ -1,0 +1,52 @@
+.notification-popup {
+  position: relative;
+}
+
+.popup {
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 10px 10px 10px rgba(205, 138, 255, 0.7);
+}
+
+.close-btn {
+  font-size: 24px;
+  background: #f8f4ff;
+  color: #bbb;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-btn:hover {
+  background-color: #e0d4ff;
+  color: #38196b;
+  border: 1px solid #c7a4ff;
+}
+
+.block-btn:hover {
+  background-color: rgb(131, 3, 3);
+  color: white;
+}
+
+.allow-btn:hover {
+  background-color: rgb(77, 124, 6);
+  color: white;
+}
+
+@media (max-width: 345px) {
+  .popup {
+    padding: 20px;
+  }
+
+  .notification-icon {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.notification-popup {
+  z-index: 1050; /* Higher than other elements on the page */
+}
